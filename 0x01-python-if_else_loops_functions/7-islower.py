@@ -6,8 +6,8 @@
 
 
 def islower(c):
-    if (type(c) is int):
+    if (30 <= ord(c) <= 39):
         return (False)
-    elif(ord('a') <= ord(c) <= ord('z')):
+    elif (ord('a') <= ord(c) <= ord('z')):
         return(True)
-    return(False)
+    return (False)
