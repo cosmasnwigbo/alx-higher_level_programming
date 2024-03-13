@@ -9,5 +9,5 @@ def islower(c):
     if (30 <= ord(c) <= 39):
         return (False)
     elif (ord('a') <= ord(c) <= ord('z')):
-        return(True)
+        return (True)
     return (False)
