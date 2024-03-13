@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 # fizzbuzz() - function that prints the numbers from 1 to 100
 
 
