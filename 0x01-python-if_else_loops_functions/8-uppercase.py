@@ -5,11 +5,12 @@
 
 
 def uppercase(str):
+    i = 0
     for x in (str):
         if ord('a') <= ord(x) <= ord('z'):
-            x = ord(x) - 32
-            print(chr(x), end="")
+            i = ord(x) - 32
         else:
-            print(x, end="")
+            i = ord(x)
+        print(chr(i), end="")
     print()
 
