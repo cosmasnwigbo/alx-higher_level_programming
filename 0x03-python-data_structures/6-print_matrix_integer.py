@@ -7,5 +7,5 @@
 def print_matrix_integer(matrix=[[]]):
     for x in matrix:
         for y in x:
-            print(f"{y}", end=" ")
+            print("{:d}".format(x), end=" ")
         print('\n')
