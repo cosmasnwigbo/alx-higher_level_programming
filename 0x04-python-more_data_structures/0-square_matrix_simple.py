@@ -10,5 +10,3 @@ def square_matrix_simple(matrix=[]):
             row.append(y ** 2)
         new_matrix.append(row)
     return (new_matrix)
-
-
