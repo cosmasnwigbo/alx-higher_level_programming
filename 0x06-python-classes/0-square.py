@@ -1,9 +1,9 @@
 #!/usr/bin/python3
+"""
+This is documentation for the module for this task
+"""
 
-"
-A documentation for an empty class Square that defines a square
-"
 
 class Square:
-     """ This is a class that does nothing but defines a class """
+    """ This is a class that does nothing but defines a class """
     pass
